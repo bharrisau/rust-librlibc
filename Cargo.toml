@@ -1,5 +1,5 @@
 [package]
-name = "librlibc"
+name = "rlibc"
 version = "0.13.0-8ed288edb"
 authors = ["Ben Harris <mail@bharr.is>"]
 build = "./build.sh"
@@ -7,3 +7,6 @@ build = "./build.sh"
 [lib]
 name = "rlibc"
 path = "rust/src/librlibc/lib.rs"
+
+[dependencies.core]
+git = "https://github.com/bharrisau/rust-libcore.git"

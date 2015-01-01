@@ -21,7 +21,6 @@
 //! the system libc library.
 
 #![crate_name = "rlibc"]
-#![license = "MIT/ASL2"]
 #![crate_type = "rlib"]
 
 #![feature(phase)]
@@ -37,7 +36,7 @@ extern crate core;
 #[cfg(test)] extern crate std;
 #[cfg(test)] extern crate native;
 
-use core::ptr::RawPtr;
+use core::ptr::PtrExt;
 
 #[no_mangle]
 pub unsafe extern fn memcpy(dest: *mut u8, src: *const u8,

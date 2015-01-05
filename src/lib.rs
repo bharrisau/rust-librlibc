@@ -21,7 +21,6 @@
 //! the system libc library.
 
 #![crate_name = "rlibc"]
-#![license = "MIT/ASL2"]
 #![crate_type = "rlib"]
 
 #![feature(phase)]

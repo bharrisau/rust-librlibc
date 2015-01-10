@@ -29,6 +29,7 @@
 // LLVM to optimize these function calls to themselves!
 #![no_builtins]
 
+#[allow(unstable)]
 extern crate core;
 
 #[phase(plugin, link)]

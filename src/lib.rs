@@ -23,7 +23,6 @@
 #![crate_name = "rlibc"]
 #![crate_type = "rlib"]
 
-#![feature(phase)]
 #![no_std]
 
 // This library defines the builtin functions, so it would be a shame for
